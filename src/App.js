@@ -1,7 +1,12 @@
 import React from "react";
+import "./index.css";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>React Router</h1>
+    </div>
+  );
 }
 
 export default App;
