@@ -1,11 +1,15 @@
 import React from "react";
 import "./index.css";
+import {Routes, Route} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div>
-      <h1>React Router</h1>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={} />
+      </Routes>
+    </>
   );
 }
 
