@@ -14,6 +14,13 @@ const Navbar = () => {
               <img src={logo} alt="logo" />
             </Link>
           </div>
+          <ul className="nav-menu">
+            <li className="nav-item">
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+          </ul>
         </nav>
       </header>
     </div>
