@@ -19,12 +19,18 @@ const Navbar = () => {
               <Link to="/" className="nav-link">
                 Home
               </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/" className="nav-link">
                 Pricing
               </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/" className="nav-link">
                 FAQ
               </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/" className="nav-link">
                 Contact
               </Link>
