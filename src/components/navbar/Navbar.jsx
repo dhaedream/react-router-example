@@ -19,8 +19,20 @@ const Navbar = () => {
               <Link to="/" className="nav-link">
                 Home
               </Link>
+              <Link to="/" className="nav-link">
+                Pricing
+              </Link>
+              <Link to="/" className="nav-link">
+                FAQ
+              </Link>
+              <Link to="/" className="nav-link">
+                Contact
+              </Link>
             </li>
           </ul>
+          <div className="hamburger">
+            <FaBars />
+          </div>
         </nav>
       </header>
     </div>
