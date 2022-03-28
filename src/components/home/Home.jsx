@@ -5,6 +5,8 @@ import "./home.css";
 import Pricing from "../pricing/Pricing";
 import Testimonials from "../testimonials/Testimonials";
 import Faq from "../faq/Faq";
+import Contact from "../contact/Contact";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Pricing />
       <Testimonials />
       <Faq />
+      <Contact />
+      <Footer />
     </div>
   );
 };
