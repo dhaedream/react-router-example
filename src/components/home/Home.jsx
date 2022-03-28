@@ -4,7 +4,7 @@ import Hero from "../hero/Hero";
 import "./home.css";
 import Pricing from "../pricing/Pricing";
 import Testimonials from "../testimonials/Testimonials";
-import Faq from "../faq/Faq";
+import FaqComp from "../faqcomp/Faqcomp";
 import Contact from "../contact/Contact";
 import Footer from "../footer/Footer";
 
@@ -15,7 +15,7 @@ const Home = () => {
       <Hero />
       <Pricing />
       <Testimonials />
-      <Faq />
+      <FaqComp />
       <Contact />
       <Footer />
     </div>

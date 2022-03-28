@@ -1,7 +1,7 @@
 import React from "react";
-import "./faq.css";
+import "./faqcomp.css";
 
-const Faq = () => {
+const Faqcomp = () => {
   return (
     <div className="section-faq">
       <div className="container">
@@ -47,4 +47,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default Faqcomp;
